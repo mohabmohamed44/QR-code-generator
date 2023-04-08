@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -27,6 +36,11 @@ input {
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    width: 250px;
+    box-shadow: 2px 2px 2px rgb(165, 165, 165);
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+    height: 43px;
 }
 
 button {
@@ -36,6 +50,9 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 2px 2px 2px rgb(165, 165, 165);
+    font-weight: 400;
+    font-size: 15px;
 }
 
 #qrcode {
