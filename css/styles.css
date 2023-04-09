@@ -63,3 +63,8 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+
+#download-btn {
+    margin: 35px;
+}
